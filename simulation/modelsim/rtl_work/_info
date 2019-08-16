@@ -1,0 +1,628 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/simulation/modelsim
+vadder
+Z1 !s110 1543614947
+!i10b 1
+!s100 L?g[n5QT[m4Ollc9aHPmL3
+Iz;[UW]`W3aNgRhiD:WG:^2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1542559650
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/adder.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/adder.v
+L0 1
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1543614947.521000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4}
+valu
+R1
+!i10b 1
+!s100 fCbc9Jodmi<Zf32kZYn?d1
+I<BLA8KDeUGmF5ZmB<1;`U0
+R2
+R0
+R3
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/alu.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/alu.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614947.427000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/alu.v|
+!i113 1
+R5
+R6
+vbitadd
+Z7 !s110 1543614949
+!i10b 1
+!s100 gc_i5T2T^B]:mCchCP:8j2
+I^<19n0SemC73Bjhb96nKD1
+R2
+R0
+R3
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/bitadd.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/bitadd.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.543000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/bitadd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/bitadd.v|
+!i113 1
+R5
+R6
+vcontrol
+Z8 !s110 1543614948
+!i10b 1
+!s100 TG0L@i?MmIU?@RSgB1na13
+I=>R5iB7co2<XA@E1FQAQJ1
+R2
+R0
+R3
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/control.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/control.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.303000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/control.v|
+!i113 1
+R5
+R6
+vcpu
+R8
+!i10b 1
+!s100 2]jmH=b;[]9ed]L:`Bc3V2
+I>M;OFX>9?nz^VBKL_cf7b1
+R2
+R0
+R3
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.397000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu.v|
+!i113 1
+R5
+R6
+vcpu_muxMB
+R7
+!i10b 1
+!s100 iR7m=Gkg]Qj?:YOT]>jLM2
+I93:II^`JNkObn:o0PkYje0
+R2
+R0
+R3
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmb.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.356000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmb.v|
+!i113 1
+R5
+R6
+ncpu_mux@m@b
+vcpu_muxMD
+R7
+!i10b 1
+!s100 a@Wjlf37N>df5ggEjL<?G1
+Ic7D7]A;0j]QJo]]ZfS=Qj0
+R2
+R0
+R3
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmd.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmd.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.733000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmd.v|
+!i113 1
+R5
+R6
+ncpu_mux@m@d
+vdecoder
+R1
+!i10b 1
+!s100 :F6TMn1d1dYY1nWEi>^m01
+IHA3?IBEWfF2eamZZKTbNz2
+R2
+R0
+Z9 w1542559652
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/decoder.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614947.818000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/decoder.v|
+!i113 1
+R5
+R6
+vdual_reg_in
+R8
+!i10b 1
+!s100 >ILMM3dKUFcXh=Y3m8PV<2
+IVYn9eEc936?Fa^7DZfkzA0
+R2
+R0
+R9
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/dual_reg_in.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/dual_reg_in.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.687000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/dual_reg_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/dual_reg_in.v|
+!i113 1
+R5
+R6
+vHaltlogic
+R7
+!i10b 1
+!s100 ijQ3BC]FOilb0NcooH[8j2
+Ij<`G@AZ=1Y7GQn<hC4dO83
+R2
+R0
+Z10 w1542559656
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/haltlogic.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/haltlogic.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.156000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/haltlogic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/haltlogic.v|
+!i113 1
+R5
+R6
+n@haltlogic
+vhex_to_seven_seg
+R1
+!i10b 1
+!s100 lmbeBMe^3FN8Ah=cfj3gV0
+I1IV3S85gkLK5PA^bzhWaS3
+R2
+R0
+R10
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/hex_to_seven_seg.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/hex_to_seven_seg.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614947.719000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/hex_to_seven_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/hex_to_seven_seg.v|
+!i113 1
+R5
+R6
+vlab4
+R8
+!i10b 1
+!s100 3^F4`ODEE5H6:z=>A7]Yg2
+I4:3N?f@2EDT^WnVX8:;RP0
+R2
+R0
+w1543611088
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.206000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4.v|
+!i113 1
+R5
+R6
+vlab4_test
+R7
+!i10b 1
+!s100 YHVGc2K1h>caj9PK<;TUN1
+InF>M];OIOb0J`;nPJMc9b0
+R2
+R0
+Z11 w1542559658
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v
+L0 20
+R4
+r1
+!s85 0
+31
+!s108 1543614949.932000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v|
+!i113 1
+R5
+R6
+vlab4_top
+R8
+!i10b 1
+!s100 EQC;XAY2JGEN00ZQ]h_Yj0
+In;5==n5Jdg:>c[HN3YmWm1
+R2
+R0
+R11
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_top.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.594000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_top.v|
+!i113 1
+R5
+R6
+vlab4dram
+R1
+!i10b 1
+!s100 dXLfT1Z<9lA0Ez0HLDkiW2
+IOEbz1WGl;Fz@@ZA]:8V5[2
+R2
+R0
+R10
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4dram.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4dram.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614947.616000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4dram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4dram.v|
+!i113 1
+R5
+R6
+vlab4iramHRMmod2
+R7
+!i10b 1
+!s100 SAHX53T0IAj4k^:`E;PoK1
+I6KW4HnBkGDYc`^G2PzZGA1
+R2
+R0
+w1543611289
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4iramhrmmod2.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4iramhrmmod2.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.835000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4iramhrmmod2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4iramhrmmod2.v|
+!i113 1
+R5
+R6
+nlab4iram@h@r@mmod2
+vlogical
+R1
+!i10b 1
+!s100 gFVhYj?i1]Z6n<zT?kK7^0
+I1:62oikOjX[mj3geSM?Ve0
+R2
+R0
+Z12 w1542559660
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/logical.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/logical.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614947.336000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/logical.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/logical.v|
+!i113 1
+R5
+R6
+vmuxB
+R7
+!i10b 1
+!s100 P@YFAdFcM5ji`Q:IC<V2L3
+IQ>Z[NMHcC`h3zXgdD[Q5D3
+R2
+R0
+R11
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxb.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.453000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxb.v|
+!i113 1
+R5
+R6
+nmux@b
+vmuxCI
+R8
+!i10b 1
+!s100 CDkzOgoL4SA3]H2Aa<RQh2
+IIEKH5QL>?4hO<L5mPC`9i0
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxCI.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxCI.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614947.999000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxCI.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxCI.v|
+!i113 1
+R5
+R6
+nmux@c@i
+vmuxMP
+R7
+!i10b 1
+!s100 hYG11fEJD`8_QGD[_;VZ=1
+I4eMP8ZiRkFj0[?@?`i^:Z1
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxmp.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxmp.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.054000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxmp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxmp.v|
+!i113 1
+R5
+R6
+nmux@m@p
+vmuxNextPC
+R8
+!i10b 1
+!s100 ?ZeU`GzLOnl7oN]fkd4hN3
+I6bS1o9?JW4HLg7R2gZdXz0
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxnextpc.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxnextpc.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.960000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxnextpc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxnextpc.v|
+!i113 1
+R5
+R6
+nmux@next@p@c
+vmuxY
+R7
+!i10b 1
+!s100 ggIR6:1d;;3`NzOi`1A^^1
+I5b>3MIlQ0k3P_R83:9CJk1
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxy.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxy.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.637000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxy.v|
+!i113 1
+R5
+R6
+nmux@y
+vpclock
+R1
+!i10b 1
+!s100 ?=cOXl9;e9]66EjzI9[BU0
+IYKg@55afJ2416PX>0cif70
+R2
+R0
+Z13 w1542559662
+Z14 8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/var_clk.v
+Z15 FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/var_clk.v
+L0 52
+R4
+r1
+!s85 0
+31
+Z16 !s108 1543614947.914000
+Z17 !s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/var_clk.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/var_clk.v|
+!i113 1
+R5
+R6
+vprogramcounter
+R8
+!i10b 1
+!s100 RTN2@UNSWSD1RX=nc3AFJ2
+I92nNbcNaQLKVKT^eMWKG53
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/programcounter.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/programcounter.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.782000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/programcounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/programcounter.v|
+!i113 1
+R5
+R6
+vregisterfile
+R8
+!i10b 1
+!s100 VMbK003i:j?;gPQ?ZWZ:G1
+I7GPbBS6cOSD^Gleg?2f@m1
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/registerFile.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/registerFile.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.493000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/registerFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/registerFile.v|
+!i113 1
+R5
+R6
+vshifter
+R8
+!i10b 1
+!s100 T6ID^hMi^]zKPcT:VM8nI0
+IRd33Soc9`WZRcJ9eMnl]n1
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/shifter.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/shifter.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.096000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/shifter.v|
+!i113 1
+R5
+R6
+vsign_extend
+R7
+!i10b 1
+!s100 FZU@4@Cl`b]SJ[hQAj]IL2
+IFb:@4NZjYI7ChLHDW:F;E0
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_extend.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_extend.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614949.263000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_extend.v|
+!i113 1
+R5
+R6
+vsign_xshift
+R8
+!i10b 1
+!s100 9b08Fh^IbX<cAB^oWM81e1
+Ia2^g10D:n[[[7Y<F3X:c30
+R2
+R0
+R12
+8C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_xshift.v
+FC:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_xshift.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1543614948.873000
+!s107 C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_xshift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4|C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_xshift.v|
+!i113 1
+R5
+R6
+vvar_clk
+R1
+!i10b 1
+!s100 I74T7433gZW:e1zM[;`U`3
+Ii[I:WQ^9]^eM3SzzFRQT81
+R2
+R0
+R13
+R14
+R15
+L0 1
+R4
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R5
+R6

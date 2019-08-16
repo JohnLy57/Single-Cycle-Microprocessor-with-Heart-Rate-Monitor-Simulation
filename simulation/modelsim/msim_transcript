@@ -1,0 +1,1900 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do ECE2300_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/logical.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/logical.v 
+# -- Compiling module logical
+# 
+# Top level modules:
+# 	logical
+# End time: 16:55:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:55:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/adder.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 16:55:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4dram.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4dram.v 
+# -- Compiling module lab4dram
+# 
+# Top level modules:
+# 	lab4dram
+# End time: 16:55:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/hex_to_seven_seg.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/hex_to_seven_seg.v 
+# -- Compiling module hex_to_seven_seg
+# 
+# Top level modules:
+# 	hex_to_seven_seg
+# End time: 16:55:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/decoder.v 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 16:55:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/var_clk.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/var_clk.v 
+# -- Compiling module var_clk
+# -- Compiling module pclock
+# 
+# Top level modules:
+# 	var_clk
+# End time: 16:55:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxCI.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:47 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxCI.v 
+# -- Compiling module muxCI
+# 
+# Top level modules:
+# 	muxCI
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/shifter.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4.v 
+# -- Compiling module lab4
+# 
+# Top level modules:
+# 	lab4
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/control.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/registerFile.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/registerFile.v 
+# -- Compiling module registerfile
+# 
+# Top level modules:
+# 	registerfile
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_top.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_top.v 
+# -- Compiling module lab4_top
+# 
+# Top level modules:
+# 	lab4_top
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/dual_reg_in.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/dual_reg_in.v 
+# -- Compiling module dual_reg_in
+# 
+# Top level modules:
+# 	dual_reg_in
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/programcounter.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/programcounter.v 
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_xshift.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_xshift.v 
+# -- Compiling module sign_xshift
+# 
+# Top level modules:
+# 	sign_xshift
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxnextpc.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:48 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxnextpc.v 
+# -- Compiling module muxNextPC
+# 
+# Top level modules:
+# 	muxNextPC
+# End time: 16:55:48 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxmp.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxmp.v 
+# -- Compiling module muxMP
+# 
+# Top level modules:
+# 	muxMP
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/haltlogic.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/haltlogic.v 
+# -- Compiling module Haltlogic
+# 
+# Top level modules:
+# 	Haltlogic
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_extend.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmb.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmb.v 
+# -- Compiling module cpu_muxMB
+# 
+# Top level modules:
+# 	cpu_muxMB
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxb.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxb.v 
+# -- Compiling module muxB
+# 
+# Top level modules:
+# 	muxB
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/bitadd.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/bitadd.v 
+# -- Compiling module bitadd
+# 
+# Top level modules:
+# 	bitadd
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxy.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxy.v 
+# -- Compiling module muxY
+# 
+# Top level modules:
+# 	muxY
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmd.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmd.v 
+# -- Compiling module cpu_muxMD
+# 
+# Top level modules:
+# 	cpu_muxMD
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4iramhrmmod2.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4iramhrmmod2.v 
+# -- Compiling module lab4iramHRMmod2
+# 
+# Top level modules:
+# 	lab4iramHRMmod2
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:55:49 on Nov 30,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4" C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v 
+# -- Compiling module lab4_test
+# 
+# Top level modules:
+# 	lab4_test
+# End time: 16:55:49 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab4_test
+# vsim -gui "+altera" -l msim_transcript -do "ECE2300_run_msim_rtl_verilog.do" 
+# Start time: 16:55:50 on Nov 30,2018
+# Loading work.lab4_test
+# Loading work.lab4
+# Loading work.cpu
+# Loading work.programcounter
+# Loading work.sign_xshift
+# Loading work.muxNextPC
+# Loading work.muxMP
+# Loading work.Haltlogic
+# Loading work.decoder
+# Loading work.registerfile
+# Loading work.sign_extend
+# Loading work.cpu_muxMB
+# Loading work.alu
+# Loading work.control
+# Loading work.muxB
+# Loading work.muxCI
+# Loading work.adder
+# Loading work.bitadd
+# Loading work.shifter
+# Loading work.logical
+# Loading work.muxY
+# Loading work.cpu_muxMD
+# Loading work.lab4iramHRMmod2
+# Loading work.lab4dram
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: tamzi  Hostname: LAPTOP-CCTUUEJ4  ProcessID: 4408
+# 
+#           Attempting to use alternate WLF file "./wlft2qfhwq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft2qfhwq
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# MSIM> --> PC_EN = x at time = 0 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 0 at time = 50 (ignore until Part C)
+# MSIM> 
+# MSIM> --> PC_EN = 1 at time = 250 (ignore until Part C)
+# MSIM> 
+# MSIM> Instr.   0 (PC =   2): SUB  R2, R2, R2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   1 (PC =   4): SUB  R7, R7, R7
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   2 (PC =   6): SUB  R6, R6, R6
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   3 (PC =   8): ADDI R5, R0,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   4 (PC =  10): SRL  R5, R5
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   5 (PC =  12): LB   R3,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   6 (PC =  14): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   7 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   8 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   9 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  10 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  11 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  12 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  13 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  14 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  15 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  16 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  17 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  18 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  19 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  20 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  21 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  22 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  23 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  24 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  25 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  26 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  27 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  28 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  29 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  30 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  31 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  32 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  33 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  34 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  35 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  36 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  37 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  38 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  39 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  40 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  41 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  42 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  43 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  44 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  45 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  46 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  47 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  48 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  49 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  50 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  51 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  52 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  53 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  54 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  55 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  56 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  57 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  58 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  59 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  60 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  61 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  62 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  63 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  64 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  65 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  66 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  67 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  68 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  69 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  70 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  71 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  72 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  73 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  74 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  75 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  76 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  77 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  78 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  79 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  80 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  81 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  82 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  83 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  84 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  85 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  86 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  87 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  88 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  89 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  90 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  91 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  92 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  93 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  94 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  95 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  96 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  97 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  98 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  99 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 100 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 101 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 102 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 103 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 104 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 105 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 106 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 107 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 108 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 109 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 110 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 111 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 112 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 113 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 114 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 115 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 116 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 117 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 118 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 119 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 120 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 121 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 122 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 123 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 124 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 125 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 126 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 127 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 128 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 129 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 130 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 131 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 132 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 133 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 134 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 135 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 136 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 137 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 138 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 139 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 140 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 141 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 142 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 143 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 144 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 145 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 146 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 147 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 148 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 149 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 150 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 151 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 152 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 153 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 154 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 155 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 156 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 157 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 158 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 159 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 160 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 161 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 162 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 163 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 164 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 165 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 166 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 167 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 168 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 169 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 170 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 171 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 172 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 173 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 174 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 175 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 176 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 177 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 178 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 179 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 180 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 181 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 182 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 183 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 184 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 185 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 186 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 187 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 188 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 189 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 190 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 191 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 192 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 193 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 194 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 195 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 196 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 197 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 198 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 199 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 200 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 201 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 202 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 203 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 204 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 205 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 206 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 207 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 208 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 209 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 210 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 211 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 212 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 213 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 214 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 215 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 216 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 217 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 218 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 219 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 220 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 221 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 222 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 223 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 224 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 225 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 226 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 227 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 228 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 229 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 230 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 231 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 232 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 233 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 234 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 235 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 236 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 237 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 238 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 239 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 240 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 241 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 242 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 243 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 244 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 245 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 246 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 247 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 248 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 249 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 250 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 251 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 252 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 253 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 254 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 255 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 256 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 257 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 258 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 259 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 260 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 261 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 262 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 263 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 264 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 265 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 266 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 267 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 268 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 269 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 270 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 271 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 272 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 273 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 274 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 275 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 276 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 277 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 278 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 279 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 280 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 281 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 282 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 283 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 284 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 285 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 286 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 287 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 288 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 289 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 290 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 291 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 292 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 293 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 294 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 295 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 296 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 297 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 298 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 299 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 300 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 301 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 302 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 303 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 304 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 305 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 306 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 307 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 308 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 309 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 310 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 311 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 312 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 313 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 314 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 315 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 316 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 317 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 318 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 319 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 320 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 321 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 322 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 323 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 324 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 325 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 326 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 327 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 328 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 329 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 330 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 331 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 332 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 333 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 334 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 335 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 336 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 337 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 338 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 339 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 340 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 341 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 342 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 343 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 344 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 345 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 346 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 347 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 348 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 349 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 350 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 351 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 352 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 353 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 354 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 355 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 356 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 357 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 358 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 359 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 360 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 361 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 362 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 363 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 364 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 365 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 366 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 367 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 368 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 369 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 370 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 371 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 372 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 373 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 374 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 375 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 376 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 377 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 378 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 379 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 380 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 381 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 382 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 383 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 384 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 385 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 386 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 387 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 388 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 389 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 390 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 391 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 392 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 393 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 394 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 395 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 396 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 397 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 398 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 399 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 400 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 401 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 402 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 403 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 404 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 405 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 406 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 407 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 408 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 409 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 410 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 411 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 412 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 413 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 414 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 415 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 416 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 417 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 418 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 419 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 420 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 421 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 422 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 423 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 424 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 425 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 426 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 427 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 428 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 429 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 430 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 431 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 432 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 433 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 434 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 435 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 436 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 437 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 438 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 439 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 440 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 441 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 442 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 443 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 444 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 445 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 446 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 447 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 448 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 449 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 450 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 451 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 452 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 453 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 454 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 455 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 456 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 457 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 458 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 459 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 460 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 461 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 462 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 463 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 464 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 465 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 466 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 467 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 468 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 469 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 470 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 471 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 472 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 473 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 474 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 475 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 476 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 477 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 478 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 479 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 480 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 481 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 482 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 483 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 484 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 485 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 486 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 487 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 488 (PC =  24): AND  R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 489 (PC =  26): ADD  R2, R2, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 490 (PC =  28): ADD  R3, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 491 (PC =  30): ADDI R7, R7,  -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 492 (PC =  32): BNE  R0, R7,  -9 (branches to PC =  16)
+# MSIM> --> Appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 493 (PC =  16): LB   R4,  -5(R0)
+# MSIM> --> INPUT on IOC of 01
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 494 (PC =  18): ANDI  R4, R4,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 495 (PC =  20): ADD  R3, R4, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 496 (PC =  22): ANDI  R3, R3,   1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# ** Note: $stop    : C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v(104)
+#    Time: 50 us  Iteration: 0  Instance: /lab4_test
+# Break in Module lab4_test at C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v line 104
+# Simulation Breakpoint: Break in Module lab4_test at C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v line 104
+# MACRO ./ECE2300_run_msim_rtl_verilog.do PAUSED at line 43
+# End time: 16:50:56 on Dec 01,2018, Elapsed time: 23:55:06
+# Errors: 0, Warnings: 2

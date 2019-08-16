@@ -1,0 +1,43 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/logical.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/adder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4dram.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/hex_to_seven_seg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/decoder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/var_clk.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxCI.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/shifter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/control.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/registerFile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_top.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/dual_reg_in.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/programcounter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_xshift.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxnextpc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxmp.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/haltlogic.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/sign_extend.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmb.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxb.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/bitadd.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/muxy.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/cpu_muxmd.v}
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4iramhrmmod2.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/jly72/Desktop/Cornell/lab\ 4\ part\ c/lab4 {C:/Users/jly72/Desktop/Cornell/lab 4 part c/lab4/lab4_test.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab4_test
+
+add wave *
+view structure
+view signals
+run -all
